@@ -10,6 +10,15 @@ body {
   line-height: 1.6;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
 /* Navbar */
 .navbar {
   background-color: #007bff;
