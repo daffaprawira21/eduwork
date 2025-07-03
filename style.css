@@ -123,8 +123,9 @@ strong {
   background-color: #007bff;
   color: white;
   text-align: center;
-  padding: 15px 0;
+  padding: 20px 0;
   margin-top: 40px;
+  margin-bottom: 0px;
 }
 
 /* Responsive Design */
