@@ -120,12 +120,11 @@ strong {
 
 /* Footer */
 .footer {
+  display: flex;
+  justify-content: center;
   background-color: #007bff;
   color: white;
-  text-align: center;
-  padding: 20px 0;
-  margin-top: 40px;
-  margin-bottom: 0px;
+  padding: 20px;
 }
 
 /* Responsive Design */
