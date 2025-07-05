@@ -1,0 +1,110 @@
+/* General layout */
+body.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+body.light-mode a {
+  color: #000;
+}
+
+body.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+body.dark-mode a {
+  color: #fff;
+}
+
+/* Modal styling for dark mode */
+body.dark-mode .modal-content {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+body.dark-mode .modal-header,
+body.dark-mode .modal-body {
+  color: #fff;
+  background-color: #1a1a1a;
+  border-color: #444;
+}
+
+body.dark-mode .btn-close {
+  filter: invert(1);
+}
+
+.navbar,
+footer {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+body.dark-mode .navbar,
+body.dark-mode footer {
+  background-color: #111 !important;
+  color: #fff;
+  border-color: #333;
+}
+
+/* Hero section */
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  max-width: 200px;
+  border: 3px solid #000;
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+body.dark-mode .profile-img {
+  border-color: #fff;
+}
+
+/* Project cards */
+.hover-effect {
+  transition: transform 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.03);
+}
+
+/* Carousel */
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .hero .row {
+    flex-wrap: nowrap;
+  }
+}
+
+.profile-img {
+  max-width: 200px;
+  border: 3px solid #000;
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+body.dark-mode .profile-img {
+  border-color: #fff;
+}
